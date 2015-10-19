@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034734B9124A69CE00798020 /* SecondView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034734B8124A69CE00798020 /* SecondView-iPad.xib */; };
+		034734E4124A6CE300798020 /* OrgInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034734E3124A6CE300798020 /* OrgInfoViewController.m */; };
+		038F251F124BDE560005CA51 /* Default-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 038F251D124BDE560005CA51 /* Default-iPad.png */; };
+		038F2520124BDE560005CA51 /* Info-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 038F251E124BDE560005CA51 /* Info-iPad.png */; };
+		03ACBBB412491EAF006A9231 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03ACBBB312491EAF006A9231 /* MainWindow-iPad.xib */; };
+		03C3D63E112AB06F0020CCB6 /* SummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C3D63D112AB06F0020CCB6 /* SummaryCell.xib */; };
+		03D2A5951133CEE300206964 /* readfull-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D2A5901133CEE300206964 /* readfull-icon.png */; };
+		03D2A5971133CEE300206964 /* summary-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D2A5921133CEE300206964 /* summary-icon.png */; };
+		03D2A5981133CEE300206964 /* search-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D2A5931133CEE300206964 /* search-icon.png */; };
+		03D2A5991133CEE300206964 /* intro-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D2A5941133CEE300206964 /* intro-icon.png */; };
+		03D2A5BC1133D0F100206964 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D2A5BB1133D0F100206964 /* Default.png */; };
+		03D2A5EF1133D2F100206964 /* info-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D2A5EE1133D2F100206964 /* info-icon.png */; };
+		03D2A640113419DE00206964 /* iTunesArtWork in Resources */ = {isa = PBXBuildFile; fileRef = 03D2A63F113419DE00206964 /* iTunesArtWork */; };
+		03D2A64D11341A9D00206964 /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D2A64C11341A9D00206964 /* Info.png */; };
+		03F53F49125108E20020C737 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F53F43125108E20020C737 /* Icon-Small@2x.png */; };
+		03F53F4A125108E20020C737 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F53F44125108E20020C737 /* Icon-Small-50.png */; };
+		03F53F4B125108E20020C737 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F53F45125108E20020C737 /* Icon-Small.png */; };
+		03F53F4C125108E20020C737 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F53F46125108E20020C737 /* Icon-72.png */; };
+		03F53F4D125108E20020C737 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F53F47125108E20020C737 /* Icon@2x.png */; };
+		03F53F4E125108E20020C737 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F53F48125108E20020C737 /* Icon.png */; };
+		03F7F744124A5C3E000DFA32 /* OrgReadChapterViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03F7F743124A5C3E000DFA32 /* OrgReadChapterViewController-iPad.xib */; };
+		03F7F7BD124A61C0000DFA32 /* OrgChapterListViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03F7F7BC124A61C0000DFA32 /* OrgChapterListViewController-iPad.xib */; };
+		03F7F7C4124A621D000DFA32 /* SummaryCell-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03F7F7C3124A621D000DFA32 /* SummaryCell-iPad.xib */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SecondView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		B76CE91411118CD3006ED5BA /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = B76CE91211118CD3006ED5BA /* next.png */; };
+		B76CE91511118CD3006ED5BA /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = B76CE91311118CD3006ED5BA /* back.png */; };
+		B76CEA4A11119D76006ED5BA /* OrgSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B76CEA4811119D76006ED5BA /* OrgSearchViewController.xib */; };
+		B76CEAE91111A97E006ED5BA /* SummaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CEAE81111A97E006ED5BA /* SummaryCell.m */; };
+		B76CEB051111A9DC006ED5BA /* SummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CEAEF1111A9DC006ED5BA /* SummaryViewController.m */; };
+		B76CEB061111A9DC006ED5BA /* ChapterGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CEAF01111A9DC006ED5BA /* ChapterGridViewController.m */; };
+		B76CEB071111A9DC006ED5BA /* BookStoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CEAF31111A9DC006ED5BA /* BookStoreAppDelegate.m */; };
+		B76CEB081111A9DC006ED5BA /* OrgChapterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CEAF41111A9DC006ED5BA /* OrgChapterListViewController.m */; };
+		B76CEB091111A9DC006ED5BA /* OrgReadChapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CEAF71111A9DC006ED5BA /* OrgReadChapterViewController.m */; };
+		B76CEB0A1111A9DC006ED5BA /* OrgScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CEAF81111A9DC006ED5BA /* OrgScrollView.m */; };
+		B76CEB0B1111A9DC006ED5BA /* OrgSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CEAFF1111A9DC006ED5BA /* OrgSearchViewController.m */; };
+		B76CEB0C1111A9DC006ED5BA /* OrgImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CEB001111A9DC006ED5BA /* OrgImageView.m */; };
+		B76CEB0D1111A9DC006ED5BA /* OrgChapterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B76CEB011111A9DC006ED5BA /* OrgChapterView.m */; };
+		B77F4B12110DABD70081C7E5 /* OrgReadChapterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B77F4B10110DABD70081C7E5 /* OrgReadChapterViewController.xib */; };
+		B77F4B31110DACEF0081C7E5 /* JMSBDBMgrWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F4B2D110DACEF0081C7E5 /* JMSBDBMgrWrapper.m */; };
+		B77F4B32110DACEF0081C7E5 /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F4B2F110DACEF0081C7E5 /* DataBaseManager.m */; };
+		B77F4B36110DAE800081C7E5 /* Organon.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B77F4B35110DAE800081C7E5 /* Organon.sqlite */; };
+		B77F4B3F110DAF1D0081C7E5 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F4B3E110DAF1D0081C7E5 /* libsqlite3.0.dylib */; };
+		B77F4B4E110DB5F90081C7E5 /* OrgChapterListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B77F4B4C110DB5F90081C7E5 /* OrgChapterListViewController.xib */; };
+		B7A51DC81111588300C03857 /* Message.htm in Resources */ = {isa = PBXBuildFile; fileRef = B7A51DC71111588300C03857 /* Message.htm */; };
+		B7E10CE211097E7200CEC105 /* JMSBBackGrnd.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E10CE111097E7200CEC105 /* JMSBBackGrnd.png */; };
+		B7E10DBF1109A31300CEC105 /* SummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7E10DBE1109A31300CEC105 /* SummaryCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		034734B8124A69CE00798020 /* SecondView-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "SecondView-iPad.xib"; path = "Resources-iPad/SecondView-iPad.xib"; sourceTree = "<group>"; };
+		034734E2124A6CE300798020 /* OrgInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrgInfoViewController.h; sourceTree = "<group>"; };
+		034734E3124A6CE300798020 /* OrgInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrgInfoViewController.m; sourceTree = "<group>"; };
+		035730A81251B8FB000AD481 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		038F251D124BDE560005CA51 /* Default-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-iPad.png"; path = "Resources-iPad/Default-iPad.png"; sourceTree = "<group>"; };
+		038F251E124BDE560005CA51 /* Info-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Info-iPad.png"; path = "Resources-iPad/Info-iPad.png"; sourceTree = "<group>"; };
+		03ACBBB312491EAF006A9231 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		03C3D63D112AB06F0020CCB6 /* SummaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SummaryCell.xib; sourceTree = "<group>"; };
+		03D2A5901133CEE300206964 /* readfull-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "readfull-icon.png"; path = "Resources/readfull-icon.png"; sourceTree = "<group>"; };
+		03D2A5921133CEE300206964 /* summary-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "summary-icon.png"; path = "Resources/summary-icon.png"; sourceTree = "<group>"; };
+		03D2A5931133CEE300206964 /* search-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search-icon.png"; path = "Resources/search-icon.png"; sourceTree = "<group>"; };
+		03D2A5941133CEE300206964 /* intro-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "intro-icon.png"; path = "Resources/intro-icon.png"; sourceTree = "<group>"; };
+		03D2A5BB1133D0F100206964 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		03D2A5EE1133D2F100206964 /* info-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info-icon.png"; path = "Resources/info-icon.png"; sourceTree = "<group>"; };
+		03D2A63F113419DE00206964 /* iTunesArtWork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtWork; path = Resources/iTunesArtWork; sourceTree = "<group>"; };
+		03D2A64C11341A9D00206964 /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Info.png; path = Resources/Info.png; sourceTree = "<group>"; };
+		03F53F43125108E20020C737 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		03F53F44125108E20020C737 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
+		03F53F45125108E20020C737 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		03F53F46125108E20020C737 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
+		03F53F47125108E20020C737 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
+		03F53F48125108E20020C737 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		03F7F743124A5C3E000DFA32 /* OrgReadChapterViewController-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "OrgReadChapterViewController-iPad.xib"; path = "Resources-iPad/OrgReadChapterViewController-iPad.xib"; sourceTree = "<group>"; };
+		03F7F7BC124A61C0000DFA32 /* OrgChapterListViewController-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "OrgChapterListViewController-iPad.xib"; path = "Resources-iPad/OrgChapterListViewController-iPad.xib"; sourceTree = "<group>"; };
+		03F7F7C3124A621D000DFA32 /* SummaryCell-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "SummaryCell-iPad.xib"; path = "Resources-iPad/SummaryCell-iPad.xib"; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* iOrganon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOrganon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		282CCBFD0DB6C98000C4EA27 /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* BookStore_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStore_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* BookStore-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BookStore-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B76CE91211118CD3006ED5BA /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = next.png; path = Resources/next.png; sourceTree = "<group>"; };
+		B76CE91311118CD3006ED5BA /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = Resources/back.png; sourceTree = "<group>"; };
+		B76CEA4811119D76006ED5BA /* OrgSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = OrgSearchViewController.xib; path = Classes/OrgSearchViewController.xib; sourceTree = "<group>"; };
+		B76CEAE71111A97E006ED5BA /* SummaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SummaryCell.h; path = Classes/SummaryCell.h; sourceTree = "<group>"; };
+		B76CEAE81111A97E006ED5BA /* SummaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SummaryCell.m; path = Classes/SummaryCell.m; sourceTree = "<group>"; };
+		B76CEAEF1111A9DC006ED5BA /* SummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SummaryViewController.m; path = Classes/SummaryViewController.m; sourceTree = "<group>"; };
+		B76CEAF01111A9DC006ED5BA /* ChapterGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChapterGridViewController.m; path = Classes/ChapterGridViewController.m; sourceTree = "<group>"; };
+		B76CEAF11111A9DC006ED5BA /* OrgSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrgSearchViewController.h; path = Classes/OrgSearchViewController.h; sourceTree = "<group>"; };
+		B76CEAF21111A9DC006ED5BA /* OrgScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrgScrollView.h; path = Classes/OrgScrollView.h; sourceTree = "<group>"; };
+		B76CEAF31111A9DC006ED5BA /* BookStoreAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookStoreAppDelegate.m; path = Classes/BookStoreAppDelegate.m; sourceTree = "<group>"; };
+		B76CEAF41111A9DC006ED5BA /* OrgChapterListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrgChapterListViewController.m; path = Classes/OrgChapterListViewController.m; sourceTree = "<group>"; };
+		B76CEAF51111A9DC006ED5BA /* OrgReadChapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrgReadChapterViewController.h; path = Classes/OrgReadChapterViewController.h; sourceTree = "<group>"; };
+		B76CEAF61111A9DC006ED5BA /* OrgChapterListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrgChapterListViewController.h; path = Classes/OrgChapterListViewController.h; sourceTree = "<group>"; };
+		B76CEAF71111A9DC006ED5BA /* OrgReadChapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrgReadChapterViewController.m; path = Classes/OrgReadChapterViewController.m; sourceTree = "<group>"; };
+		B76CEAF81111A9DC006ED5BA /* OrgScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrgScrollView.m; path = Classes/OrgScrollView.m; sourceTree = "<group>"; };
+		B76CEAF91111A9DC006ED5BA /* OrgChapterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrgChapterView.h; path = Classes/OrgChapterView.h; sourceTree = "<group>"; };
+		B76CEAFB1111A9DC006ED5BA /* ChapterGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChapterGridViewController.h; path = Classes/ChapterGridViewController.h; sourceTree = "<group>"; };
+		B76CEAFC1111A9DC006ED5BA /* BookStoreAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookStoreAppDelegate.h; path = Classes/BookStoreAppDelegate.h; sourceTree = "<group>"; };
+		B76CEAFF1111A9DC006ED5BA /* OrgSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrgSearchViewController.m; path = Classes/OrgSearchViewController.m; sourceTree = "<group>"; };
+		B76CEB001111A9DC006ED5BA /* OrgImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrgImageView.m; path = Classes/OrgImageView.m; sourceTree = "<group>"; };
+		B76CEB011111A9DC006ED5BA /* OrgChapterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrgChapterView.m; path = Classes/OrgChapterView.m; sourceTree = "<group>"; };
+		B76CEB021111A9DC006ED5BA /* SummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SummaryViewController.h; path = Classes/SummaryViewController.h; sourceTree = "<group>"; };
+		B76CEB031111A9DC006ED5BA /* OrgImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrgImageView.h; path = Classes/OrgImageView.h; sourceTree = "<group>"; };
+		B76CEB0F1111AA0C006ED5BA /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Classes/Common.h; sourceTree = "<group>"; };
+		B77F4B10110DABD70081C7E5 /* OrgReadChapterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = OrgReadChapterViewController.xib; path = Classes/OrgReadChapterViewController.xib; sourceTree = "<group>"; };
+		B77F4B2D110DACEF0081C7E5 /* JMSBDBMgrWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSBDBMgrWrapper.m; sourceTree = "<group>"; };
+		B77F4B2E110DACEF0081C7E5 /* JMSBDBMgrWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSBDBMgrWrapper.h; sourceTree = "<group>"; };
+		B77F4B2F110DACEF0081C7E5 /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
+		B77F4B30110DACEF0081C7E5 /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
+		B77F4B35110DAE800081C7E5 /* Organon.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = Organon.sqlite; path = Resources/Organon.sqlite; sourceTree = "<group>"; };
+		B77F4B3E110DAF1D0081C7E5 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		B77F4B4C110DB5F90081C7E5 /* OrgChapterListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = OrgChapterListViewController.xib; path = Classes/OrgChapterListViewController.xib; sourceTree = "<group>"; };
+		B7A51DC71111588300C03857 /* Message.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Message.htm; path = Resources/Message.htm; sourceTree = "<group>"; };
+		B7E10CE111097E7200CEC105 /* JMSBBackGrnd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JMSBBackGrnd.png; path = Resources/JMSBBackGrnd.png; sourceTree = "<group>"; };
+		B7E10DBE1109A31300CEC105 /* SummaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SummaryCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				B77F4B3F110DAF1D0081C7E5 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03ACBBB212491EAE006A9231 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				038F251D124BDE560005CA51 /* Default-iPad.png */,
+				038F251E124BDE560005CA51 /* Info-iPad.png */,
+				03F7F743124A5C3E000DFA32 /* OrgReadChapterViewController-iPad.xib */,
+				03F7F7C3124A621D000DFA32 /* SummaryCell-iPad.xib */,
+				034734B8124A69CE00798020 /* SecondView-iPad.xib */,
+				03F7F7BC124A61C0000DFA32 /* OrgChapterListViewController-iPad.xib */,
+				03ACBBB312491EAF006A9231 /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iOrganon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* BookStore */ = {
+			isa = PBXGroup;
+			children = (
+				B77EF8441111AFA900A4A417 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				03ACBBB212491EAE006A9231 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = BookStore;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* BookStore_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B77EF8501111B08F00A4A417 /* Images */,
+				B77EF84F1111B07D00A4A417 /* Xib */,
+				B77EF84E1111B06A00A4A417 /* DB */,
+				B77EF84D1111B03C00A4A417 /* Cells */,
+				B7A51DC71111588300C03857 /* Message.htm */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* BookStore-Info.plist */,
+				035730A81251B8FB000AD481 /* Entitlements.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B77F4B3E110DAF1D0081C7E5 /* libsqlite3.0.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B77EF8441111AFA900A4A417 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B77EF84C1111B03100A4A417 /* Common */,
+				B77F4B24110DACB00081C7E5 /* DB */,
+				B77EF84B1111B01500A4A417 /* Application */,
+				B77EF84A1111B00700A4A417 /* Views */,
+				B77EF8491111AFEC00A4A417 /* ViewControllers */,
+				B77EF8451111AFB700A4A417 /* Cells */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B77EF8451111AFB700A4A417 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B76CEAE71111A97E006ED5BA /* SummaryCell.h */,
+				B76CEAE81111A97E006ED5BA /* SummaryCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		B77EF8491111AFEC00A4A417 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B76CEAF01111A9DC006ED5BA /* ChapterGridViewController.m */,
+				B76CEAFB1111A9DC006ED5BA /* ChapterGridViewController.h */,
+				B76CEAF61111A9DC006ED5BA /* OrgChapterListViewController.h */,
+				B76CEAF41111A9DC006ED5BA /* OrgChapterListViewController.m */,
+				B76CEAF51111A9DC006ED5BA /* OrgReadChapterViewController.h */,
+				B76CEAF71111A9DC006ED5BA /* OrgReadChapterViewController.m */,
+				B76CEAF11111A9DC006ED5BA /* OrgSearchViewController.h */,
+				B76CEAFF1111A9DC006ED5BA /* OrgSearchViewController.m */,
+				034734E2124A6CE300798020 /* OrgInfoViewController.h */,
+				034734E3124A6CE300798020 /* OrgInfoViewController.m */,
+				B76CEB021111A9DC006ED5BA /* SummaryViewController.h */,
+				B76CEAEF1111A9DC006ED5BA /* SummaryViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B77EF84A1111B00700A4A417 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B76CEAF21111A9DC006ED5BA /* OrgScrollView.h */,
+				B76CEAF81111A9DC006ED5BA /* OrgScrollView.m */,
+				B76CEAF91111A9DC006ED5BA /* OrgChapterView.h */,
+				B76CEB001111A9DC006ED5BA /* OrgImageView.m */,
+				B76CEB011111A9DC006ED5BA /* OrgChapterView.m */,
+				B76CEB031111A9DC006ED5BA /* OrgImageView.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B77EF84B1111B01500A4A417 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B76CEAF31111A9DC006ED5BA /* BookStoreAppDelegate.m */,
+				B76CEAFC1111A9DC006ED5BA /* BookStoreAppDelegate.h */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		B77EF84C1111B03100A4A417 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B76CEB0F1111AA0C006ED5BA /* Common.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		B77EF84D1111B03C00A4A417 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B7E10DBE1109A31300CEC105 /* SummaryCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		B77EF84E1111B06A00A4A417 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				B77F4B35110DAE800081C7E5 /* Organon.sqlite */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		B77EF84F1111B07D00A4A417 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				B76CEA4811119D76006ED5BA /* OrgSearchViewController.xib */,
+				03C3D63D112AB06F0020CCB6 /* SummaryCell.xib */,
+				B77F4B4C110DB5F90081C7E5 /* OrgChapterListViewController.xib */,
+				B77F4B10110DABD70081C7E5 /* OrgReadChapterViewController.xib */,
+				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		B77EF8501111B08F00A4A417 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				03F53F43125108E20020C737 /* Icon-Small@2x.png */,
+				03F53F44125108E20020C737 /* Icon-Small-50.png */,
+				03F53F45125108E20020C737 /* Icon-Small.png */,
+				03F53F46125108E20020C737 /* Icon-72.png */,
+				03F53F47125108E20020C737 /* Icon@2x.png */,
+				03F53F48125108E20020C737 /* Icon.png */,
+				B76CE91211118CD3006ED5BA /* next.png */,
+				03D2A5BB1133D0F100206964 /* Default.png */,
+				03D2A64C11341A9D00206964 /* Info.png */,
+				B76CE91311118CD3006ED5BA /* back.png */,
+				B7E10CE111097E7200CEC105 /* JMSBBackGrnd.png */,
+				03D2A5EE1133D2F100206964 /* info-icon.png */,
+				03D2A63F113419DE00206964 /* iTunesArtWork */,
+				03D2A5901133CEE300206964 /* readfull-icon.png */,
+				03D2A5921133CEE300206964 /* summary-icon.png */,
+				03D2A5931133CEE300206964 /* search-icon.png */,
+				03D2A5941133CEE300206964 /* intro-icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B77F4B24110DACB00081C7E5 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				B77F4B2D110DACEF0081C7E5 /* JMSBDBMgrWrapper.m */,
+				B77F4B2E110DACEF0081C7E5 /* JMSBDBMgrWrapper.h */,
+				B77F4B2F110DACEF0081C7E5 /* DataBaseManager.m */,
+				B77F4B30110DACEF0081C7E5 /* DataBaseManager.h */,
+			);
+			name = DB;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iOrganon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iOrganon" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOrganon;
+			productName = BookStore;
+			productReference = 1D6058910D05DD3D006BFB54 /* iOrganon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BookStore" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* BookStore */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iOrganon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
+				B7E10CE211097E7200CEC105 /* JMSBBackGrnd.png in Resources */,
+				B7E10DBF1109A31300CEC105 /* SummaryCell.xib in Resources */,
+				B77F4B12110DABD70081C7E5 /* OrgReadChapterViewController.xib in Resources */,
+				B77F4B36110DAE800081C7E5 /* Organon.sqlite in Resources */,
+				B77F4B4E110DB5F90081C7E5 /* OrgChapterListViewController.xib in Resources */,
+				B7A51DC81111588300C03857 /* Message.htm in Resources */,
+				B76CE91411118CD3006ED5BA /* next.png in Resources */,
+				B76CE91511118CD3006ED5BA /* back.png in Resources */,
+				B76CEA4A11119D76006ED5BA /* OrgSearchViewController.xib in Resources */,
+				03C3D63E112AB06F0020CCB6 /* SummaryCell.xib in Resources */,
+				03D2A5951133CEE300206964 /* readfull-icon.png in Resources */,
+				03D2A5971133CEE300206964 /* summary-icon.png in Resources */,
+				03D2A5981133CEE300206964 /* search-icon.png in Resources */,
+				03D2A5991133CEE300206964 /* intro-icon.png in Resources */,
+				03D2A5BC1133D0F100206964 /* Default.png in Resources */,
+				03D2A5EF1133D2F100206964 /* info-icon.png in Resources */,
+				03D2A640113419DE00206964 /* iTunesArtWork in Resources */,
+				03D2A64D11341A9D00206964 /* Info.png in Resources */,
+				03ACBBB412491EAF006A9231 /* MainWindow-iPad.xib in Resources */,
+				03F7F744124A5C3E000DFA32 /* OrgReadChapterViewController-iPad.xib in Resources */,
+				03F7F7BD124A61C0000DFA32 /* OrgChapterListViewController-iPad.xib in Resources */,
+				03F7F7C4124A621D000DFA32 /* SummaryCell-iPad.xib in Resources */,
+				034734B9124A69CE00798020 /* SecondView-iPad.xib in Resources */,
+				038F251F124BDE560005CA51 /* Default-iPad.png in Resources */,
+				038F2520124BDE560005CA51 /* Info-iPad.png in Resources */,
+				03F53F49125108E20020C737 /* Icon-Small@2x.png in Resources */,
+				03F53F4A125108E20020C737 /* Icon-Small-50.png in Resources */,
+				03F53F4B125108E20020C737 /* Icon-Small.png in Resources */,
+				03F53F4C125108E20020C737 /* Icon-72.png in Resources */,
+				03F53F4D125108E20020C737 /* Icon@2x.png in Resources */,
+				03F53F4E125108E20020C737 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				B77F4B31110DACEF0081C7E5 /* JMSBDBMgrWrapper.m in Sources */,
+				B77F4B32110DACEF0081C7E5 /* DataBaseManager.m in Sources */,
+				B76CEAE91111A97E006ED5BA /* SummaryCell.m in Sources */,
+				B76CEB051111A9DC006ED5BA /* SummaryViewController.m in Sources */,
+				B76CEB061111A9DC006ED5BA /* ChapterGridViewController.m in Sources */,
+				B76CEB071111A9DC006ED5BA /* BookStoreAppDelegate.m in Sources */,
+				B76CEB081111A9DC006ED5BA /* OrgChapterListViewController.m in Sources */,
+				B76CEB091111A9DC006ED5BA /* OrgReadChapterViewController.m in Sources */,
+				B76CEB0A1111A9DC006ED5BA /* OrgScrollView.m in Sources */,
+				B76CEB0B1111A9DC006ED5BA /* OrgSearchViewController.m in Sources */,
+				B76CEB0C1111A9DC006ED5BA /* OrgImageView.m in Sources */,
+				B76CEB0D1111A9DC006ED5BA /* OrgChapterView.m in Sources */,
+				034734E4124A6CE300798020 /* OrgInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03A73741113B9F28002FE3B3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JESSY CHANDY";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FDD51FE0-656D-4ED0-A5FE-40BB286A46CC";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Distribution;
+		};
+		03A73742113B9F28002FE3B3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/WIP/BookStore/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BookStore_Prefix.pch;
+				INFOPLIST_FILE = "BookStore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = iOrganon;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		03A73769113BA080002FE3B3 /* DistributionAppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JESSY CHANDY";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 2.0;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EA75FB89-AF50-46A8-814F-867267783E16";
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DistributionAppStore;
+		};
+		03A7376A113BA080002FE3B3 /* DistributionAppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/WIP/BookStore/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: JESSY CHANDY";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BookStore_Prefix.pch;
+				INFOPLIST_FILE = "BookStore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = iOrganon;
+				PROVISIONING_PROFILE = "EA75FB89-AF50-46A8-814F-867267783E16";
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DistributionAppStore;
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/WIP/BookStore/Entitlements.plist";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BookStore_Prefix.pch;
+				INFOPLIST_FILE = "BookStore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 2.0;
+				PRODUCT_NAME = iOrganon;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/WIP/BookStore/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BookStore_Prefix.pch;
+				INFOPLIST_FILE = "BookStore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = iOrganon;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos2.2.1]" = "iPhone Developer: Alan Hochstein (53EZRC6L74)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alan Hochstein";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D7D531C8-6445-45E9-B0D9-9D0D8F57A6D6";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iOrganon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				03A73742113B9F28002FE3B3 /* Distribution */,
+				03A7376A113BA080002FE3B3 /* DistributionAppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BookStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				03A73741113B9F28002FE3B3 /* Distribution */,
+				03A73769113BA080002FE3B3 /* DistributionAppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,1873 @@
+TiOrganon
+v7
+r0
+t326654933.391808
+cCheck dependencies
+cProcessInfoPlistFile "/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Info.plist" BookStore-Info.plist
+cCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/MainWindow.xib"
+cCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/SecondView.xib"
+cCpResource build/Debug-iphonesimulator/iOrganon.app/JMSBBackGrnd.png Resources/JMSBBackGrnd.png
+cCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/SummaryCell.xib"
+cCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/SummaryCell.xib"
+cCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgReadChapterViewController.xib"
+cCpResource build/Debug-iphonesimulator/iOrganon.app/Organon.sqlite Resources/Organon.sqlite
+cCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgChapterListViewController.xib"
+cCpResource build/Debug-iphonesimulator/iOrganon.app/Message.htm Resources/Message.htm
+cCpResource build/Debug-iphonesimulator/iOrganon.app/next.png Resources/next.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/back.png Resources/back.png
+cCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgSearchViewController.xib"
+cCpResource build/Debug-iphonesimulator/iOrganon.app/readfull-icon.png Resources/readfull-icon.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/summary-icon.png Resources/summary-icon.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/search-icon.png Resources/search-icon.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/intro-icon.png Resources/intro-icon.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/Default.png Resources/Default.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/info-icon.png Resources/info-icon.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/iTunesArtWork Resources/iTunesArtWork
+cCpResource build/Debug-iphonesimulator/iOrganon.app/Info.png Resources/Info.png
+cCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/MainWindow-iPad.xib"
+cCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/OrgReadChapterViewController-iPad.xib"
+cCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/OrgChapterListViewController-iPad.xib"
+cCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/SummaryCell-iPad.xib"
+cCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/SecondView-iPad.xib"
+cCpResource build/Debug-iphonesimulator/iOrganon.app/Default-iPad.png Resources-iPad/Default-iPad.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/Info-iPad.png Resources-iPad/Info-iPad.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/Icon-Small@2x.png Resources/Icon-Small@2x.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/Icon-Small-50.png Resources/Icon-Small-50.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/Icon-Small.png Resources/Icon-Small.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/Icon-72.png Resources/Icon-72.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/Icon@2x.png Resources/Icon@2x.png
+cCpResource build/Debug-iphonesimulator/iOrganon.app/Icon.png Resources/Icon.png
+cProcessPCH /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-hfyqwshtsoxapfhbmalyaknjlkwl/BookStore_Prefix.pch.gch BookStore_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004D007E9E0000000000000132
+t1291878046
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/sqlite3.h
+c000000004BFDF9FB0000000000041A6F
+t1274935803
+s268911
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/lib/libsqlite3.0.dylib
+c000000004BFDFA0A0000000000079480
+t1274935818
+s496768
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch
+c000000004B5945A600000000000000BB
+t1264141734
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/BookStoreAppDelegate.h
+c000000004B6178CA00000000000001D9
+t1264679114
+s473
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/BookStoreAppDelegate.m
+c000000004B7179D900000000000004F2
+t1265727961
+s1266
+i"BookStoreAppDelegate.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/ChapterGridViewController.h
+c000000004B61786300000000000000F2
+t1264679011
+s242
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/ChapterGridViewController.m
+c000000004B6174A6000000000000092D
+t1264678054
+s2349
+i"ChapterGridViewController.h"
+i"OrgChapterView.h"
+i"Common.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/Common.h
+c000000004B7AA9A1000000000000027D
+t1266330017
+s637
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/DataBaseManager.h
+c0000000049DAFC69000000000000036D
+t1239088233
+s877
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/DataBaseManager.m
+c000000004AEAF3880000000000002397
+t1256911752
+s9111
+i"DataBaseManager.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/JMSBDBMgrWrapper.h
+c000000004B7A80EC0000000000000387
+t1266319596
+s903
+i<Foundation/Foundation.h>
+i"DataBaseManager.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/JMSBDBMgrWrapper.m
+c000000004B8B7AA40000000000001AF1
+t1267432100
+s6897
+i"JMSBDBMgrWrapper.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgChapterListViewController.h
+c000000004C9A2AA300000000000000F8
+t1285171875
+s248
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgChapterListViewController.m
+c000000004B5D7E790000000000000590
+t1264418425
+s1424
+i"OrgChapterListViewController.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgChapterListViewController.xib
+c000000004C9A2CCF00000000000049EB
+t1285172431
+s18923
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgChapterView.h
+c000000004B5D43F70000000000000112
+t1264403447
+s274
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgChapterView.m
+c000000004C9A2D9100000000000004EF
+t1285172625
+s1263
+i"OrgChapterView.h"
+i"OrgImageView.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgImageView.h
+c000000004B59BB5700000000000000FE
+t1264171863
+s254
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgImageView.m
+c000000004B59BA430000000000000264
+t1264171587
+s612
+i"OrgImageView.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgReadChapterViewController.h
+c000000004C9A386E0000000000000523
+t1285175406
+s1315
+i<UIKit/UIKit.h>
+i"Common.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgReadChapterViewController.m
+c000000004C9A3D3E000000000000340A
+t1285176638
+s13322
+i"OrgReadChapterViewController.h"
+i"Common.h"
+i"JMSBDBMgrWrapper.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgReadChapterViewController.xib
+c000000004C9A370B00000000000081D2
+t1285175051
+s33234
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgScrollView.h
+c000000004B59B39600000000000000D6
+t1264169878
+s214
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgScrollView.m
+c000000004B59B6FB00000000000002C9
+t1264170747
+s713
+i"OrgScrollView.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgSearchViewController.h
+c000000004C9A3F100000000000000399
+t1285177104
+s921
+i<UIKit/UIKit.h>
+i"SummaryCell.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgSearchViewController.m
+c000000004C9AFF150000000000002417
+t1285226261
+s9239
+i"OrgSearchViewController.h"
+i"Common.h"
+i"JMSBDBMgrWrapper.h"
+i"OrgReadChapterViewController.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgSearchViewController.xib
+c000000004C9A3FEC000000000000813B
+t1285177324
+s33083
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/SummaryCell.h
+c000000004B5972D90000000000000191
+t1264153305
+s401
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/SummaryCell.m
+c000000004CA0CBDD00000000000001F0
+t1285606365
+s496
+i"SummaryCell.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/SummaryViewController.h
+c000000004B5DB6F6000000000000021C
+t1264432886
+s540
+i<UIKit/UIKit.h>
+i"SummaryCell.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/SummaryViewController.m
+c000000004C9A337600000000000016DD
+t1285174134
+s5853
+i"SummaryViewController.h"
+i"JMSBDBMgrWrapper.h"
+i"OrgReadChapterViewController.h"
+i"Common.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/MainWindow.xib
+c000000004B839B98000000000000897F
+t1266916248
+s35199
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/OrgInfoViewController.h
+c000000004C9A366700000000000000F3
+t1285174887
+s243
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/OrgInfoViewController.m
+c000000004C9BAAFF000000000000071A
+t1285270271
+s1818
+i"OrgInfoViewController.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/Default-iPad.png
+c000000004C9BA67C000000000000D723
+t1285269116
+s55075
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/Info-iPad.png
+c000000004C9BA290000000000002DFBC
+t1285268112
+s188348
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/MainWindow-iPad.xib
+c000000004C9BAA16000000000000FC8B
+t1285270038
+s64651
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/OrgChapterListViewController-iPad.xib
+c000000004C9A2E3E00000000000044C0
+t1285172798
+s17600
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/OrgReadChapterViewController-iPad.xib
+c000000004C9A371400000000000082BD
+t1285175060
+s33469
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/SecondView-iPad.xib
+c000000004C9BA6F700000000000040BD
+t1285269239
+s16573
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/SummaryCell-iPad.xib
+c000000004C9A300D0000000000005DC3
+t1285173261
+s24003
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/Default.png
+c000000004C9BA5BF000000000000408C
+t1285268927
+s16524
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/Icon-72.png
+c000000004CA0D05D0000000000002F88
+t1285607517
+s12168
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/Icon-Small-50.png
+c000000004CA0D0C600000000000020C8
+t1285607622
+s8392
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/Icon-Small.png
+c000000004CA0D09E000000000000137A
+t1285607582
+s4986
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/Icon-Small@2x.png
+c000000004CA0D0F100000000000027BE
+t1285607665
+s10174
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/Icon.png
+c000000004B82DF060000000000001CB7
+t1266867974
+s7351
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/Icon@2x.png
+c000000004CA0CF8E0000000000004FC3
+t1285607310
+s20419
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/Info.png
+c000000004C9BA27200000000000085EB
+t1285268082
+s34283
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/JMSBBackGrnd.png
+c000000004C9B988B000000000000B664
+t1285265547
+s46692
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/Message.htm
+c000000004B869C530000000000000125
+t1267113043
+s293
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/Organon.sqlite
+c000000004B8B7A9E00000000000A0000
+t1267432094
+s655360
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/back.png
+c000000004AE81700000000000000015E
+t1256724224
+s350
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/iTunesArtWork
+c000000004B82E7DA000000000001F8AA
+t1266870234
+s129194
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/info-icon.png
+c000000004B4C532E0000000000000538
+t1263293230
+s1336
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/intro-icon.png
+c000000004B84DD8C0000000000000486
+t1266998668
+s1158
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/next.png
+c000000004AE81703000000000000015A
+t1256724227
+s346
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/readfull-icon.png
+c000000004B84DD7F00000000000002B3
+t1266998655
+s691
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/search-icon.png
+c000000004B48EF960000000000000FF4
+t1263071126
+s4084
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources/summary-icon.png
+c000000004B84DD870000000000000316
+t1266998663
+s790
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/SecondView.xib
+c000000004C9A35C40000000000004188
+t1285174724
+s16776
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/SummaryCell.xib
+c000000004C9A2D3A0000000000005DE5
+t1285172538
+s24037
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/BookStoreAppDelegate.o
+t1286818003
+s49848
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/ChapterGridViewController.o
+t1286818003
+s39904
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/DataBaseManager.o
+t1286818003
+s29812
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/JMSBDBMgrWrapper.o
+t1286818002
+s25120
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgChapterListViewController.o
+t1286818003
+s34544
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgChapterView.o
+t1286818003
+s38476
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgImageView.o
+t1286818003
+s34912
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgInfoViewController.o
+t1286818003
+s37284
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgReadChapterViewController.o
+t1286818003
+s80576
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgScrollView.o
+t1286818003
+s34376
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgSearchViewController.o
+t1286818003
+s64448
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/SummaryCell.o
+t1286818003
+s36636
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/SummaryViewController.o
+t1286818003
+s58300
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/iOrganon.LinkFileList
+c000000004DC823F100000000000007DF
+t1304962033
+s2015
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/main.o
+t1286818002
+s6304
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app
+t1286818003
+s1258
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app.dSYM
+t1286818003
+s102
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Default-iPad.png
+t1286818001
+s55075
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Default.png
+t1286818000
+s16524
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Icon-72.png
+t1286818001
+s12168
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Icon-Small-50.png
+t1286818001
+s8392
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Icon-Small.png
+t1286818001
+s4986
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Icon-Small@2x.png
+t1286818001
+s10174
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Icon.png
+t1286818001
+s7351
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Icon@2x.png
+t1286818001
+s20419
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Info-iPad.png
+t1286818001
+s188348
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Info.plist
+t1304962132
+s978
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Info.png
+t1286818000
+s34283
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/JMSBBackGrnd.png
+t1286817998
+s46692
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/MainWindow-iPad.nib
+t1286818000
+s6643
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/MainWindow.nib
+t1286817998
+s6788
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Message.htm
+t1286817999
+s293
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/OrgChapterListViewController-iPad.nib
+t1286818001
+s1691
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/OrgChapterListViewController.nib
+t1286817999
+s1775
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/OrgReadChapterViewController-iPad.nib
+t1286818000
+s5456
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/OrgReadChapterViewController.nib
+t1286817999
+s5453
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/OrgSearchViewController.nib
+t1286818000
+s4171
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Organon.sqlite
+t1286817999
+s655360
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/PkgInfo
+t1304962132
+s8
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/SecondView-iPad.nib
+t1286818001
+s1790
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/SecondView.nib
+t1286817998
+s1786
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/SummaryCell-iPad.nib
+t1286818001
+s3404
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/SummaryCell.nib
+t1286817999
+s3408
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/back.png
+t1286817999
+s350
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/iOrganon
+t1286818003
+s102252
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/iTunesArtWork
+t1286818000
+s129194
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/info-icon.png
+t1286818000
+s1336
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/intro-icon.png
+t1286818000
+s1158
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/next.png
+t1286817999
+s346
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/readfull-icon.png
+t1286818000
+s691
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/search-icon.png
+t1286818000
+s4084
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/summary-icon.png
+t1286818000
+s790
+
+N/Users/santhoshjoseph/WIP/BookStore2.0 copy/main.m
+c000000004B5945A60000000000000161
+t1264141734
+s353
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/BookStore_Prefix.pch
+c000000004B5945A600000000000000BB
+t1264141734
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/BookStoreAppDelegate.h
+c000000004B6178CA00000000000001D9
+t1264679114
+s473
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/BookStoreAppDelegate.m
+c000000004B7179D900000000000004F2
+t1265727961
+s1266
+i"BookStoreAppDelegate.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/ChapterGridViewController.h
+c000000004B61786300000000000000F2
+t1264679011
+s242
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/ChapterGridViewController.m
+c000000004B6174A6000000000000092D
+t1264678054
+s2349
+i"ChapterGridViewController.h"
+i"OrgChapterView.h"
+i"Common.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/Common.h
+c000000004B7AA9A1000000000000027D
+t1266330017
+s637
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/DataBaseManager.h
+c0000000049DAFC69000000000000036D
+t1239088233
+s877
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/DataBaseManager.m
+c000000004AEAF3880000000000002397
+t1256911752
+s9111
+i"DataBaseManager.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/JMSBDBMgrWrapper.h
+c000000004B7A80EC0000000000000387
+t1266319596
+s903
+i<Foundation/Foundation.h>
+i"DataBaseManager.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/JMSBDBMgrWrapper.m
+c000000004B8B7AA40000000000001AF1
+t1267432100
+s6897
+i"JMSBDBMgrWrapper.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterListViewController.h
+c000000004C9A2AA300000000000000F8
+t1285171875
+s248
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterListViewController.m
+c000000004B5D7E790000000000000590
+t1264418425
+s1424
+i"OrgChapterListViewController.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterListViewController.xib
+c000000004C9A2CCF00000000000049EB
+t1285172431
+s18923
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterView.h
+c000000004B5D43F70000000000000112
+t1264403447
+s274
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterView.m
+c000000004C9A2D9100000000000004EF
+t1285172625
+s1263
+i"OrgChapterView.h"
+i"OrgImageView.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgImageView.h
+c000000004B59BB5700000000000000FE
+t1264171863
+s254
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgImageView.m
+c000000004B59BA430000000000000264
+t1264171587
+s612
+i"OrgImageView.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgReadChapterViewController.h
+c000000004C9A386E0000000000000523
+t1285175406
+s1315
+i<UIKit/UIKit.h>
+i"Common.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgReadChapterViewController.m
+c000000004C9A3D3E000000000000340A
+t1285176638
+s13322
+i"OrgReadChapterViewController.h"
+i"Common.h"
+i"JMSBDBMgrWrapper.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgReadChapterViewController.xib
+c000000004C9A370B00000000000081D2
+t1285175051
+s33234
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgScrollView.h
+c000000004B59B39600000000000000D6
+t1264169878
+s214
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgScrollView.m
+c000000004B59B6FB00000000000002C9
+t1264170747
+s713
+i"OrgScrollView.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgSearchViewController.h
+c000000004C9A3F100000000000000399
+t1285177104
+s921
+i<UIKit/UIKit.h>
+i"SummaryCell.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgSearchViewController.m
+c000000004C9AFF150000000000002417
+t1285226261
+s9239
+i"OrgSearchViewController.h"
+i"Common.h"
+i"JMSBDBMgrWrapper.h"
+i"OrgReadChapterViewController.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgSearchViewController.xib
+c000000004C9A3FEC000000000000813B
+t1285177324
+s33083
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryCell.h
+c000000004B5972D90000000000000191
+t1264153305
+s401
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryCell.m
+c000000004CA0CBDD00000000000001F0
+t1285606365
+s496
+i"SummaryCell.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryViewController.h
+c000000004B5DB6F6000000000000021C
+t1264432886
+s540
+i<UIKit/UIKit.h>
+i"SummaryCell.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryViewController.m
+c000000004C9A337600000000000016DD
+t1285174134
+s5853
+i"SummaryViewController.h"
+i"JMSBDBMgrWrapper.h"
+i"OrgReadChapterViewController.h"
+i"Common.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/MainWindow.xib
+c000000004B839B98000000000000897F
+t1266916248
+s35199
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/OrgInfoViewController.h
+c000000004C9A366700000000000000F3
+t1285174887
+s243
+i<UIKit/UIKit.h>
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/OrgInfoViewController.m
+c000000004C9BAAFF000000000000071A
+t1285270271
+s1818
+i"OrgInfoViewController.h"
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/Default-iPad.png
+c000000004C9BA67C000000000000D723
+t1285269116
+s55075
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/Info-iPad.png
+c000000004C9BA290000000000002DFBC
+t1285268112
+s188348
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/MainWindow-iPad.xib
+c000000004C9BAA16000000000000FC8B
+t1285270038
+s64651
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/OrgChapterListViewController-iPad.xib
+c000000004C9A2E3E00000000000044C0
+t1285172798
+s17600
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/OrgReadChapterViewController-iPad.xib
+c000000004C9A371400000000000082BD
+t1285175060
+s33469
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/SecondView-iPad.xib
+c000000004C9BA6F700000000000040BD
+t1285269239
+s16573
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/SummaryCell-iPad.xib
+c000000004C9A300D0000000000005DC3
+t1285173261
+s24003
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Default.png
+c000000004C9BA5BF000000000000408C
+t1285268927
+s16524
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon-72.png
+c000000004CA0D05D0000000000002F88
+t1285607517
+s12168
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon-Small-50.png
+c000000004CA0D0C600000000000020C8
+t1285607622
+s8392
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon-Small.png
+c000000004CA0D09E000000000000137A
+t1285607582
+s4986
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon-Small@2x.png
+c000000004CA0D0F100000000000027BE
+t1285607665
+s10174
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon.png
+c000000004B82DF060000000000001CB7
+t1266867974
+s7351
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon@2x.png
+c000000004CA0CF8E0000000000004FC3
+t1285607310
+s20419
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Info.png
+c000000004C9BA27200000000000085EB
+t1285268082
+s34283
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/JMSBBackGrnd.png
+c000000004C9B988B000000000000B664
+t1285265547
+s46692
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Message.htm
+c000000004B869C530000000000000125
+t1267113043
+s293
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Organon.sqlite
+c000000004B8B7A9E00000000000A0000
+t1267432094
+s655360
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/back.png
+c000000004AE81700000000000000015E
+t1256724224
+s350
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/iTunesArtWork
+c000000004B82E7DA000000000001F8AA
+t1266870234
+s129194
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/info-icon.png
+c000000004B4C532E0000000000000538
+t1263293230
+s1336
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/intro-icon.png
+c000000004B84DD8C0000000000000486
+t1266998668
+s1158
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/next.png
+c000000004AE81703000000000000015A
+t1256724227
+s346
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/readfull-icon.png
+c000000004B84DD7F00000000000002B3
+t1266998655
+s691
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/search-icon.png
+c000000004B48EF960000000000000FF4
+t1263071126
+s4084
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/Resources/summary-icon.png
+c000000004B84DD870000000000000316
+t1266998663
+s790
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/SecondView.xib
+c000000004C9A35C40000000000004188
+t1285174724
+s16776
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/SummaryCell.xib
+c000000004C9A2D3A0000000000005DE5
+t1285172538
+s24037
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/BookStoreAppDelegate.o
+t1286818003
+s49848
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/ChapterGridViewController.o
+t1286818003
+s39904
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/DataBaseManager.o
+t1286818003
+s29812
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/JMSBDBMgrWrapper.o
+t1286818002
+s25120
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgChapterListViewController.o
+t1286818003
+s34544
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgChapterView.o
+t1286818003
+s38476
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgImageView.o
+t1286818003
+s34912
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgInfoViewController.o
+t1286818003
+s37284
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgReadChapterViewController.o
+t1286818003
+s80576
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgScrollView.o
+t1286818003
+s34376
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgSearchViewController.o
+t1286818003
+s64448
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/SummaryCell.o
+t1286818003
+s36636
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/SummaryViewController.o
+t1286818003
+s58300
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/iOrganon.LinkFileList
+c000000004CB348CD0000000000000799
+t1286817997
+s1945
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/main.o
+t1286818002
+s6304
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app
+t1286818003
+s1258
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app.dSYM
+t1286818003
+s102
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Default-iPad.png
+t1286818001
+s55075
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Default.png
+t1286818000
+s16524
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Icon-72.png
+t1286818001
+s12168
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Icon-Small-50.png
+t1286818001
+s8392
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Icon-Small.png
+t1286818001
+s4986
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Icon-Small@2x.png
+t1286818001
+s10174
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Icon.png
+t1286818001
+s7351
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Icon@2x.png
+t1286818001
+s20419
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Info-iPad.png
+t1286818001
+s188348
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Info.plist
+t1286817998
+s978
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Info.png
+t1286818000
+s34283
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/JMSBBackGrnd.png
+t1286817998
+s46692
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/MainWindow-iPad.nib
+t1286818000
+s6643
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/MainWindow.nib
+t1286817998
+s6788
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Message.htm
+t1286817999
+s293
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/OrgChapterListViewController-iPad.nib
+t1286818001
+s1691
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/OrgChapterListViewController.nib
+t1286817999
+s1775
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/OrgReadChapterViewController-iPad.nib
+t1286818000
+s5456
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/OrgReadChapterViewController.nib
+t1286817999
+s5453
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/OrgSearchViewController.nib
+t1286818000
+s4171
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Organon.sqlite
+t1286817999
+s655360
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/PkgInfo
+t1286817998
+s8
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/SecondView-iPad.nib
+t1286818001
+s1790
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/SecondView.nib
+t1286817998
+s1786
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/SummaryCell-iPad.nib
+t1286818001
+s3404
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/SummaryCell.nib
+t1286817999
+s3408
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/back.png
+t1286817999
+s350
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/iOrganon
+t1286818003
+s102252
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/iTunesArtWork
+t1286818000
+s129194
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/info-icon.png
+t1286818000
+s1336
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/intro-icon.png
+t1286818000
+s1158
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/next.png
+t1286817999
+s346
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/readfull-icon.png
+t1286818000
+s691
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/search-icon.png
+t1286818000
+s4084
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/summary-icon.png
+t1286818000
+s790
+
+N/Users/santhoshjoseph/WIP/BookStore2.0/main.m
+c000000004B5945A60000000000000161
+t1264141734
+s353
+i<UIKit/UIKit.h>
+
+N/var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch.gch
+t1286818002
+s15232016
+
+N/var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-ftsxsnrqidqxojdlfgumcnojeevb/BookStore_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-hfyqwshtsoxapfhbmalyaknjlkwl/BookStore_Prefix.pch.gch
+t2
+s0
+
+NBookStore-Info.plist
+c000000004DC8245300000000000005D1
+t1304962131
+s1489
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies326654932#326654932#0(0"0(0#1#0"8618227520#0"0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/BookStoreAppDelegate.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/BookStoreAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/BookStoreAppDelegate.o /Users/santhoshjoseph/WIP/BookStore2.0/Classes/BookStoreAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510803.130964
+e308510803.205490
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/BookStoreAppDelegate.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/BookStoreAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/santhoshjoseph/WIP/BookStore2.0/Classes/BookStoreAppDelegate.m308510803#308510803#0(0"0(0#0#69"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/BookStoreAppDelegate.m8604684576#1970"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/Classes/BookStoreAppDelegate.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/BookStoreAppDelegate.o0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/ChapterGridViewController.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/ChapterGridViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/ChapterGridViewController.o /Users/santhoshjoseph/WIP/BookStore2.0/Classes/ChapterGridViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510803.050889
+e308510803.130855
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/ChapterGridViewController.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/ChapterGridViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/santhoshjoseph/WIP/BookStore2.0/Classes/ChapterGridViewController.m308510803#308510803#0(0"0(0#0#74"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/ChapterGridViewController.m8603135520#1980"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/Classes/ChapterGridViewController.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/ChapterGridViewController.o0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/DataBaseManager.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/DataBaseManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/DataBaseManager.o /Users/santhoshjoseph/WIP/BookStore2.0/Classes/DataBaseManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510802.933526
+e308510803.050739
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/DataBaseManager.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/DataBaseManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/santhoshjoseph/WIP/BookStore2.0/Classes/DataBaseManager.m308510802#308510803#0(0"0(0#0#64"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/DataBaseManager.m8604313440#1960"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/Classes/DataBaseManager.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/DataBaseManager.o0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/JMSBDBMgrWrapper.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/JMSBDBMgrWrapper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/JMSBDBMgrWrapper.o /Users/santhoshjoseph/WIP/BookStore2.0/Classes/JMSBDBMgrWrapper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510802.795420
+e308510802.963563
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/JMSBDBMgrWrapper.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/JMSBDBMgrWrapper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/santhoshjoseph/WIP/BookStore2.0/Classes/JMSBDBMgrWrapper.m308510802#308510802#0(0"0(0#0#65"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/JMSBDBMgrWrapper.m8604929568#1962"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/Classes/JMSBDBMgrWrapper.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/JMSBDBMgrWrapper.o0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgChapterListViewController.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgChapterListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgChapterListViewController.o /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510803.163311
+e308510803.226918
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgChapterListViewController.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterListViewController.m308510803#308510803#0(0"0(0#0#77"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterListViewController.m8601050208#1986"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterListViewController.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgChapterListViewController.o0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgChapterView.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgChapterView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgChapterView.o /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510803.412946
+e308510803.493540
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgChapterView.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterView.m308510803#308510803#0(0"0(0#0#63"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterView.m8604822752#1958"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterView.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgChapterView.o0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgImageView.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgImageView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgImageView.o /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510803.352650
+e308510803.412836
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgImageView.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgImageView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgImageView.m308510803#308510803#0(0"0(0#0#61"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgImageView.m8605270112#1954"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgImageView.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgImageView.o0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgInfoViewController.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/OrgInfoViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgInfoViewController.o /Users/santhoshjoseph/WIP/BookStore2.0/OrgInfoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510803.450230
+e308510803.512248
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgInfoViewController.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/OrgInfoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/santhoshjoseph/WIP/BookStore2.0/OrgInfoViewController.m308510803#308510803#0(0"0(0#0#62"/Users/santhoshjoseph/WIP/BookStore2.0/OrgInfoViewController.m8604435488#1964"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/OrgInfoViewController.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgInfoViewController.o0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgReadChapterViewController.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgReadChapterViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgReadChapterViewController.o /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgReadChapterViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510803.205592
+e308510803.352552
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgReadChapterViewController.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgReadChapterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgReadChapterViewController.m308510803#308510803#0(0"0(0#0#77"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgReadChapterViewController.m8605489376#1986"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgReadChapterViewController.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgReadChapterViewController.o0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgScrollView.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgScrollView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgScrollView.o /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgScrollView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510803.227019
+e308510803.314418
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgScrollView.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgScrollView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgScrollView.m308510803#308510803#0(0"0(0#0#62"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgScrollView.m8605120480#1956"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgScrollView.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgScrollView.o0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgSearchViewController.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgSearchViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgSearchViewController.o /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgSearchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510803.314522
+e308510803.450129
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgSearchViewController.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgSearchViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgSearchViewController.m308510803#308510803#0(0"0(0#0#72"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgSearchViewController.m8607806912#1976"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgSearchViewController.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/OrgSearchViewController.o0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/SummaryCell.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/SummaryCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/SummaryCell.o /Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510802.963663
+e308510803.029615
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/SummaryCell.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryCell.m308510802#308510803#0(0"0(0#0#60"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryCell.m8603855168#1952"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryCell.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/SummaryCell.o0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/SummaryViewController.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/SummaryViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/SummaryViewController.o /Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510803.029757
+e308510803.163212
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/SummaryViewController.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryViewController.m308510803#308510803#0(0"0(0#0#70"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryViewController.m8600562944#1972"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/Classes/SummaryViewController.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/SummaryViewController.o0#
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/main.o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/main.o /Users/santhoshjoseph/WIP/BookStore2.0/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510802.793909
+e308510802.933424
+r1
+xCompileC
+xbuild/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/main.o
+x/Users/santhoshjoseph/WIP/BookStore2.0/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/santhoshjoseph/WIP/BookStore2.0/main.m308510802#308510802#0(0"0(0#0#45"/Users/santhoshjoseph/WIP/BookStore2.0/main.m8605170336#1930"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -include /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch -c /Users/santhoshjoseph/WIP/BookStore2.0/main.m -o /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/main.o0#
+
+CCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgChapterListViewController.xib"
+r0
+
+CCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgReadChapterViewController.xib"
+r0
+
+CCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Classes/OrgSearchViewController.xib"
+r0
+
+CCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/MainWindow-iPad.xib"
+r0
+
+CCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/OrgChapterListViewController-iPad.xib"
+r0
+
+CCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/OrgReadChapterViewController-iPad.xib"
+r0
+
+CCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/SecondView-iPad.xib"
+r0
+
+CCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/Resources-iPad/SummaryCell-iPad.xib"
+r0
+
+CCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/SecondView.xib"
+r0
+
+CCompileXIB "/Users/santhoshjoseph/WIP/BookStore2.0 copy/SummaryCell.xib"
+r0
+
+CCompileXIB /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterListViewController.xib
+s308510799.250279
+e308510799.814583
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterListViewController.xib
+lSLF07#2@51"CompileXIB Classes/OrgChapterListViewController.xib308510799#308510799#0(0"0(0#0#79"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterListViewController.xib8604897056#615"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/OrgChapterListViewController.nib /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgChapterListViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgReadChapterViewController.xib
+s308510798.869614
+e308510800.137237
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgReadChapterViewController.xib
+lSLF07#2@51"CompileXIB Classes/OrgReadChapterViewController.xib308510798#308510800#0(0"0(0#0#79"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgReadChapterViewController.xib8605422944#615"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/OrgReadChapterViewController.nib /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgReadChapterViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgSearchViewController.xib
+s308510799.816353
+e308510800.313898
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgSearchViewController.xib
+lSLF07#2@46"CompileXIB Classes/OrgSearchViewController.xib308510799#308510800#0(0"0(0#0#74"/Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgSearchViewController.xib8604064416#605"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/OrgSearchViewController.nib /Users/santhoshjoseph/WIP/BookStore2.0/Classes/OrgSearchViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/BookStore2.0/MainWindow.xib
+s308510798.067122
+e308510798.816102
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/BookStore2.0/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib308510798#308510798#0(0"0(0#0#53"/Users/santhoshjoseph/WIP/BookStore2.0/MainWindow.xib8605489664#571"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/MainWindow.nib /Users/santhoshjoseph/WIP/BookStore2.0/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/MainWindow-iPad.xib
+s308510800.156387
+e308510800.651708
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/MainWindow-iPad.xib
+lSLF07#2@45"CompileXIB Resources-iPad/MainWindow-iPad.xib308510800#308510800#0(0"0(0#0#73"/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/MainWindow-iPad.xib8605635616#596"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/MainWindow-iPad.nib /Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/MainWindow-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/OrgChapterListViewController-iPad.xib
+s308510800.651796
+e308510801.030369
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/OrgChapterListViewController-iPad.xib
+lSLF07#2@63"CompileXIB Resources-iPad/OrgChapterListViewController-iPad.xib308510800#308510801#0(0"0(0#0#91"/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/OrgChapterListViewController-iPad.xib8608328256#632"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/OrgChapterListViewController-iPad.nib /Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/OrgChapterListViewController-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/OrgReadChapterViewController-iPad.xib
+s308510800.313978
+e308510800.792403
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/OrgReadChapterViewController-iPad.xib
+lSLF07#2@63"CompileXIB Resources-iPad/OrgReadChapterViewController-iPad.xib308510800#308510800#0(0"0(0#0#91"/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/OrgReadChapterViewController-iPad.xib8609215616#632"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/OrgReadChapterViewController-iPad.nib /Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/OrgReadChapterViewController-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/SecondView-iPad.xib
+s308510801.030459
+e308510801.405086
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/SecondView-iPad.xib
+lSLF07#2@45"CompileXIB Resources-iPad/SecondView-iPad.xib308510801#308510801#0(0"0(0#0#73"/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/SecondView-iPad.xib8604824384#596"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/SecondView-iPad.nib /Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/SecondView-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/SummaryCell-iPad.xib
+s308510800.792493
+e308510801.207752
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/SummaryCell-iPad.xib
+lSLF07#2@46"CompileXIB Resources-iPad/SummaryCell-iPad.xib308510800#308510801#0(0"0(0#0#74"/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/SummaryCell-iPad.xib8605404064#598"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/SummaryCell-iPad.nib /Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/SummaryCell-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/BookStore2.0/SecondView.xib
+s308510798.068808
+e308510798.473148
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/BookStore2.0/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib308510798#308510798#0(0"0(0#0#53"/Users/santhoshjoseph/WIP/BookStore2.0/SecondView.xib8605354144#571"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/SecondView.nib /Users/santhoshjoseph/WIP/BookStore2.0/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/santhoshjoseph/WIP/BookStore2.0/SummaryCell.xib
+s308510798.816187
+e308510799.249545
+r1
+xCompileXIB
+x/Users/santhoshjoseph/WIP/BookStore2.0/SummaryCell.xib
+lSLF07#2@26"CompileXIB SummaryCell.xib308510798#308510799#0(0"0(0#0#54"/Users/santhoshjoseph/WIP/BookStore2.0/SummaryCell.xib8608111968#573"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/SummaryCell.nib /Users/santhoshjoseph/WIP/BookStore2.0/SummaryCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/Default-iPad.png Resources-iPad/Default-iPad.png
+s308510801.207918
+e308510801.245494
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/Default-iPad.png
+xResources-iPad/Default-iPad.png
+lSLF07#2@36"Copy Resources-iPad/Default-iPad.png308510801#308510801#0(0"0(0#0#70"/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/Default-iPad.png8603864480#476"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/Default-iPad.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/Default.png Resources/Default.png
+s308510800.145226
+e308510800.183407
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/Default.png
+xResources/Default.png
+lSLF07#2@26"Copy Resources/Default.png308510800#308510800#0(0"0(0#0#60"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Default.png8603893312#466"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/Default.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/Icon-72.png Resources/Icon-72.png
+s308510801.210668
+e308510801.245320
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/Icon-72.png
+xResources/Icon-72.png
+lSLF07#2@26"Copy Resources/Icon-72.png308510801#308510801#0(0"0(0#0#60"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon-72.png8604514944#466"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon-72.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/Icon-Small-50.png Resources/Icon-Small-50.png
+s308510801.209657
+e308510801.232923
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/Icon-Small-50.png
+xResources/Icon-Small-50.png
+lSLF07#2@32"Copy Resources/Icon-Small-50.png308510801#308510801#0(0"0(0#0#66"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon-Small-50.png8604984736#472"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon-Small-50.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/Icon-Small.png Resources/Icon-Small.png
+s308510801.210168
+e308510801.237627
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/Icon-Small.png
+xResources/Icon-Small.png
+lSLF07#2@29"Copy Resources/Icon-Small.png308510801#308510801#0(0"0(0#0#63"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon-Small.png8604716160#469"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon-Small.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/Icon-Small@2x.png Resources/Icon-Small@2x.png
+s308510801.209112
+e308510801.241715
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/Icon-Small@2x.png
+xResources/Icon-Small@2x.png
+lSLF07#2@32"Copy Resources/Icon-Small@2x.png308510801#308510801#0(0"0(0#0#66"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon-Small@2x.png8600825344#472"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon-Small@2x.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/Icon.png Resources/Icon.png
+s308510801.211712
+e308510801.251739
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/Icon.png
+xResources/Icon.png
+lSLF07#2@23"Copy Resources/Icon.png308510801#308510801#0(0"0(0#0#57"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon.png8604308512#463"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/Icon@2x.png Resources/Icon@2x.png
+s308510801.211190
+e308510801.272548
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/Icon@2x.png
+xResources/Icon@2x.png
+lSLF07#2@26"Copy Resources/Icon@2x.png308510801#308510801#0(0"0(0#0#60"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon@2x.png8604428448#466"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/Icon@2x.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/Info-iPad.png Resources-iPad/Info-iPad.png
+s308510801.208575
+e308510801.275837
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/Info-iPad.png
+xResources-iPad/Info-iPad.png
+lSLF07#2@33"Copy Resources-iPad/Info-iPad.png308510801#308510801#0(0"0(0#0#67"/Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/Info-iPad.png8602640704#473"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources-iPad/Info-iPad.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/Info.png Resources/Info.png
+s308510800.154779
+e308510800.208869
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/Info.png
+xResources/Info.png
+lSLF07#2@23"Copy Resources/Info.png308510800#308510800#0(0"0(0#0#57"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Info.png8608366400#463"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/Info.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/JMSBBackGrnd.png Resources/JMSBBackGrnd.png
+s308510798.473240
+e308510798.519821
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/JMSBBackGrnd.png
+xResources/JMSBBackGrnd.png
+lSLF07#2@31"Copy Resources/JMSBBackGrnd.png308510798#308510798#0(0"0(0#0#65"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/JMSBBackGrnd.png8605318208#471"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/JMSBBackGrnd.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/Message.htm Resources/Message.htm
+s308510799.814673
+e308510799.839388
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/Message.htm
+xResources/Message.htm
+lSLF07#2@26"Copy Resources/Message.htm308510799#308510799#0(0"0(0#0#60"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Message.htm8604451264#466"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/Message.htm /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/Organon.sqlite Resources/Organon.sqlite
+s308510799.249636
+e308510799.694500
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/Organon.sqlite
+xResources/Organon.sqlite
+lSLF07#2@29"Copy Resources/Organon.sqlite308510799#308510799#0(0"0(0#0#63"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/Organon.sqlite8605063104#469"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/Organon.sqlite /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/back.png Resources/back.png
+s308510799.815831
+e308510799.845908
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/back.png
+xResources/back.png
+lSLF07#2@23"Copy Resources/back.png308510799#308510799#0(0"0(0#0#57"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/back.png8604265664#463"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/back.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/iTunesArtWork Resources/iTunesArtWork
+s308510800.152624
+e308510800.216666
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/iTunesArtWork
+xResources/iTunesArtWork
+lSLF07#2@28"Copy Resources/iTunesArtWork308510800#308510800#0(0"0(0#0#62"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/iTunesArtWork8608689408#468"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/iTunesArtWork /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/info-icon.png Resources/info-icon.png
+s308510800.146995
+e308510800.171999
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/info-icon.png
+xResources/info-icon.png
+lSLF07#2@28"Copy Resources/info-icon.png308510800#308510800#0(0"0(0#0#62"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/info-icon.png8600406080#468"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/info-icon.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/intro-icon.png Resources/intro-icon.png
+s308510800.140721
+e308510800.176049
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/intro-icon.png
+xResources/intro-icon.png
+lSLF07#2@29"Copy Resources/intro-icon.png308510800#308510800#0(0"0(0#0#63"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/intro-icon.png8601350688#469"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/intro-icon.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/next.png Resources/next.png
+s308510799.815316
+e308510799.839248
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/next.png
+xResources/next.png
+lSLF07#2@23"Copy Resources/next.png308510799#308510799#0(0"0(0#0#57"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/next.png8604367200#463"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/next.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/readfull-icon.png Resources/readfull-icon.png
+s308510800.137345
+e308510800.162165
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/readfull-icon.png
+xResources/readfull-icon.png
+lSLF07#2@32"Copy Resources/readfull-icon.png308510800#308510800#0(0"0(0#0#66"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/readfull-icon.png8603761984#472"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/readfull-icon.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/search-icon.png Resources/search-icon.png
+s308510800.139059
+e308510800.160851
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/search-icon.png
+xResources/search-icon.png
+lSLF07#2@30"Copy Resources/search-icon.png308510800#308510800#0(0"0(0#0#64"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/search-icon.png8599727584#470"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/search-icon.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CCpResource build/Debug-iphonesimulator/iOrganon.app/summary-icon.png Resources/summary-icon.png
+s308510800.138281
+e308510800.160484
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iOrganon.app/summary-icon.png
+xResources/summary-icon.png
+lSLF07#2@31"Copy Resources/summary-icon.png308510800#308510800#0(0"0(0#0#65"/Users/santhoshjoseph/WIP/BookStore2.0/Resources/summary-icon.png8601354528#471"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/santhoshjoseph/WIP/BookStore2.0/Resources/summary-icon.png /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
+CGenerateDSYMFile "/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app.dSYM" "/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/iOrganon"
+r0
+
+CGenerateDSYMFile /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app.dSYM /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/iOrganon
+s308510803.776525
+e308510803.856778
+r1
+xGenerateDSYMFile
+x/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app.dSYM
+x/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/iOrganon
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/iOrganon.app.dSYM build/Debug-iphonesimulator/iOrganon.app/iOrganon308510803#308510803#0(0"0(0#0#88"/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/iOrganon8605496256#386"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/iOrganon -o /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app.dSYM0#
+
+CLd "/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/iOrganon" normal i386
+r0
+
+CLd /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/iOrganon normal i386
+s308510803.512340
+e308510803.776430
+r1
+xLd
+x/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/iOrganon
+xnormal
+xi386
+lSLF07#2@93"Link /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/iOrganon308510803#308510803#0(0"0(0#0#0"8604251872#918"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -filelist /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/Objects-normal/i386/iOrganon.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -o /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/iOrganon0#
+
+CProcessInfoPlistFile "/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Info.plist" BookStore-Info.plist
+s326654932.359059
+e326654932.364693
+r1
+xProcessInfoPlistFile
+x/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Info.plist
+xBookStore-Info.plist
+lSLF07#2@28"Process BookStore-Info.plist326654932#326654932#0(0"0(0#0#64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore-Info.plist8603354432#504"    cd "/Users/santhoshjoseph/WIP/BookStore2.0 copy"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BookStore-Info.plist -genpkginfo "/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app/Info.plist"0#
+
+CProcessInfoPlistFile /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Info.plist BookStore-Info.plist
+s308510798.052545
+e308510798.067041
+r1
+xProcessInfoPlistFile
+x/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Info.plist
+xBookStore-Info.plist
+lSLF07#2@28"Process BookStore-Info.plist308510798#308510798#0(0"0(0#0#59"/Users/santhoshjoseph/WIP/BookStore2.0/BookStore-Info.plist31244169098821736#483"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BookStore-Info.plist -genpkginfo /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app/Info.plist0#
+
+CProcessPCH /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch.gch BookStore_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s308510801.405201
+e308510802.793506
+r1
+xProcessPCH
+x/var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch.gch
+xBookStore_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile BookStore_Prefix.pch308510801#308510802#0(0"0(0#0#59"/Users/santhoshjoseph/WIP/BookStore2.0/BookStore_Prefix.pch8608708608#1821"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap -iquote /Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap -F/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator -I/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/include -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386 -I/Users/santhoshjoseph/WIP/BookStore2.0/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources -c /Users/santhoshjoseph/WIP/BookStore2.0/BookStore_Prefix.pch -o /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-cdmllrkbytikipepocnxkawdixxm/BookStore_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-ftsxsnrqidqxojdlfgumcnojeevb/BookStore_Prefix.pch.gch BookStore_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-hfyqwshtsoxapfhbmalyaknjlkwl/BookStore_Prefix.pch.gch BookStore_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s326654932.366159
+e326654933.391726
+r0
+xProcessPCH
+x/var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-hfyqwshtsoxapfhbmalyaknjlkwl/BookStore_Prefix.pch.gch
+xBookStore_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined
+o<command-line>: warning: this is the location of the previous definition
+oIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h:129,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h:61,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:24,
+o                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6,
+o                 from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch:6:
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:56:42: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:63:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:73:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:79:42: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:89:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:95:42: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:99:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:111:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:117:42: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:122:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:127:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:141:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:147:42: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:153:43: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:159:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:165:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:181:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:187:42: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:194:43: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:201:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:208:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:215:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:233:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:239:42: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:247:43: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:255:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:263:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:271:44: error: operator '<' has no left operand
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:279:44: error: operator '<' has no left operand
+lSLF07#2@31"Precompile BookStore_Prefix.pch326654932#326654933#0(5701"<command-line>: warning: "__IPHONE_OS_VERSION_MIN_REQUIRED" redefined<command-line>: warning: this is the location of the previous definitionIn file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h:129,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h:61,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:24,                 from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6,                 from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch:6:/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:56:42: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:63:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:73:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:79:42: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:89:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:95:42: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:99:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:111:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:117:42: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:122:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:127:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:141:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:147:42: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:153:43: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:159:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:165:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:181:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:187:42: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:194:43: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:201:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:208:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:215:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:233:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:239:42: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:247:43: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:255:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:263:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:271:44: error: operator '<' has no left operand/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h:279:44: error: operator '<' has no left operand29(4@32"Operator '<' has no left operand326654932#865#166#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#56#0#56#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#56#0#56#0#0"0(4@32"Operator '<' has no left operand326654932#1031#166#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#63#0#63#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#63#0#63#0#0"0(4@32"Operator '<' has no left operand326654932#1197#166#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#73#0#73#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#73#0#73#0#0"0(4@32"Operator '<' has no left operand326654932#1363#166#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#79#0#79#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#79#0#79#0#0"0(4@32"Operator '<' has no left operand326654932#1529#166#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#89#0#89#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#89#0#89#0#0"0(4@32"Operator '<' has no left operand326654932#1695#166#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#95#0#95#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#95#0#95#0#0"0(4@32"Operator '<' has no left operand326654932#1861#166#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#99#0#99#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#99#0#99#0#0"0(4@32"Operator '<' has no left operand326654932#2027#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#111#0#111#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#111#0#111#0#0"0(4@32"Operator '<' has no left operand326654932#2194#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#117#0#117#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#117#0#117#0#0"0(4@32"Operator '<' has no left operand326654932#2361#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#122#0#122#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#122#0#122#0#0"0(4@32"Operator '<' has no left operand326654932#2528#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#127#0#127#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#127#0#127#0#0"0(4@32"Operator '<' has no left operand326654932#2695#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#141#0#141#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#141#0#141#0#0"0(4@32"Operator '<' has no left operand326654932#2862#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#147#0#147#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#147#0#147#0#0"0(4@32"Operator '<' has no left operand326654932#3029#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#153#0#153#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#153#0#153#0#0"0(4@32"Operator '<' has no left operand326654932#3196#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#159#0#159#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#159#0#159#0#0"0(4@32"Operator '<' has no left operand326654932#3363#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#165#0#165#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#165#0#165#0#0"0(4@32"Operator '<' has no left operand326654932#3530#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#181#0#181#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#181#0#181#0#0"0(4@32"Operator '<' has no left operand326654932#3697#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#187#0#187#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#187#0#187#0#0"0(4@32"Operator '<' has no left operand326654932#3864#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#194#0#194#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#194#0#194#0#0"0(4@32"Operator '<' has no left operand326654932#4031#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#201#0#201#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#201#0#201#0#0"0(4@32"Operator '<' has no left operand326654932#4198#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#208#0#208#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#208#0#208#0#0"0(4@32"Operator '<' has no left operand326654932#4365#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#215#0#215#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#215#0#215#0#0"0(4@32"Operator '<' has no left operand326654932#4532#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#233#0#233#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#233#0#233#0#0"0(4@32"Operator '<' has no left operand326654932#4699#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#239#0#239#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#239#0#239#0#0"0(4@32"Operator '<' has no left operand326654932#4866#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#247#0#247#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#247#0#247#0#0"0(4@32"Operator '<' has no left operand326654932#5033#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#255#0#255#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#255#0#255#0#0"0(4@32"Operator '<' has no left operand326654932#5200#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#263#0#263#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#263#0#263#0#0"0(4@32"Operator '<' has no left operand326654932#5367#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#271#0#271#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#271#0#271#0#0"0(4@32"Operator '<' has no left operand326654932#5534#167#6(7@86"In file included from /Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch326654932#18446744073709551615#0#0(6@64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch285834534#6#0#6#0#0"0(7@173"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h326654932#18446744073709551615#0#0(6@151"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h296629742#6#0#6#0#0"0(7@181"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h326654932#18446744073709551615#0#0(6@159"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h296629490#24#0#24#0#0"0(7@126"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h326654932#18446744073709551615#0#0(6@104"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h269241383#61#0#61#0#0"0(7@132"In file included from /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h326654932#18446744073709551615#0#0(6@110"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h296027001#129#0#129#0#0"0(13@154"Operator '<' has no left operand in /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h326654932#18446744073709551615#0#0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#279#0#279#0#0"0(6@118"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/AvailabilityInternal.h296027001#279#0#279#0#0"0(0#0#64"/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch8609856800#1940"    cd "/Users/santhoshjoseph/WIP/BookStore2.0 copy"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED= -iquote "/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-generated-files.hmap" "-I/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-own-target-headers.hmap" "-I/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-all-target-headers.hmap" -iquote "/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/iOrganon-project-headers.hmap" "-F/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator" "-I/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/include" "-I/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources/i386" "-I/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/BookStore.build/Debug-iphonesimulator/iOrganon.build/DerivedSources" -c "/Users/santhoshjoseph/WIP/BookStore2.0 copy/BookStore_Prefix.pch" -o /var/folders/Y4/Y4w6lNGHGmCrxFqniPpwhE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/BookStore_Prefix-hfyqwshtsoxapfhbmalyaknjlkwl/BookStore_Prefix.pch.gch1#
+
+CTouch "/Users/santhoshjoseph/WIP/BookStore2.0 copy/build/Debug-iphonesimulator/iOrganon.app"
+r0
+
+CTouch /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app
+s308510803.856871
+e308510803.892888
+r1
+xTouch
+x/Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app
+lSLF07#2@85"Touch /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app308510803#308510803#0(0"0(0#0#0"8605206528#279"    cd /Users/santhoshjoseph/WIP/BookStore2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/santhoshjoseph/WIP/BookStore2.0/build/Debug-iphonesimulator/iOrganon.app0#
+
